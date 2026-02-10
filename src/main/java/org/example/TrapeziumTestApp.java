@@ -11,7 +11,7 @@ import java.util.Comparator;
  */
 public class TrapeziumTestApp {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("========== ТЕСТИРОВАНИЕ КЛАССОВ ==========\n");
 
         testPoint();
@@ -45,7 +45,7 @@ public class TrapeziumTestApp {
         Point p2 = Point.fromString(" -1.5 , 2.5 ");
         System.out.println("fromString(\" -1.5 , 2.5 \") -> " + p2 + ", x=" + p2.getX() + ", y=" + p2.getY());
         assert Math.abs(p2.getX() - (-1.5)) < 1e-9 && Math.abs(p2.getY() - 2.5) < 1e-9;
-        System.out.println("toString() = " + p2.toString());
+        System.out.println("toString() = " + p2);
     }
 
     private static void testFigureAndTrapezium() {
@@ -153,7 +153,7 @@ public class TrapeziumTestApp {
         }
 
         try {
-            new Trapezium((String) null);
+            new Trapezium(null);
             assert false : "Должно быть выброшено исключение";
         } catch (IllegalArgumentException e) {
             System.out.println("Trapezium(null): поймано IllegalArgumentException: " + e.getMessage());
