@@ -1,6 +1,5 @@
 package org.example;
 
-import java.util.Arrays;
 import java.util.Comparator;
 
 /**
@@ -11,7 +10,7 @@ import java.util.Comparator;
  */
 public class TrapeziumTestApp {
 
-    static void main(String[] args) {
+    static void main(String[] ignoredArgs) {
         System.out.println("========== ТЕСТИРОВАНИЕ КЛАССОВ ==========\n");
 
         testPoint();
