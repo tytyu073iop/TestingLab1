@@ -2,10 +2,17 @@ package org.example;
 
 /**
  * Abstract basic class for geometrical figures
- * @author ilya
+ * @author Ilya Biryuk
  * @version 1.0
  */
 public abstract class Figure {
+
+    /**
+     * constructs figure, does nothing
+     */
+    public Figure() {
+
+    }
 
     /**
      * Computes figure area

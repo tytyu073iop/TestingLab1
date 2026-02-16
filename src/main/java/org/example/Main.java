@@ -5,13 +5,13 @@ import java.util.Comparator;
 
 /**
  * <b>Console app</b> array of trapezium which is sorted by field
- * @author ilya
+ * @author Ilya Biryuk
  * @version 1.0
  */
 public class Main {
     /**
      * where program starts
-     * @param args
+     * @param args not used
      */
     public static void main(String[] args) {
         System.out.println("=== Демонстрация класса Trapezium ===\n");

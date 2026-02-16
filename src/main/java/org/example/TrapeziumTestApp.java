@@ -5,11 +5,15 @@ import java.util.Comparator;
 /**
  *This application: checking all methods and constructors of Point, Figure, Trapezium
  * with the output of data and results. Assert and exception handling are used.
- * @author ilya
+ * @author Ilya Biryuk
  * @version 1.0
  */
 public class TrapeziumTestApp {
 
+    /**
+     * function which starts
+     * @param ignoredArgs not used
+     */
     static void main(String[] ignoredArgs) {
         System.out.println("========== ТЕСТИРОВАНИЕ КЛАССОВ ==========\n");
 
