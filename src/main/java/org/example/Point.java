@@ -2,7 +2,7 @@ package org.example;
 
 /**
  * Describes x,y coordinates
- * @author ilya
+ * @author Ilya Biryuk
  * @version 1.0
  */
 public class Point {
@@ -11,8 +11,8 @@ public class Point {
 
     /**
      * contsucts a point with given coordinates
-     * @param x
-     * @param y
+     * @param x - coordinate on x axis
+     * @param y - coordinate on y axis
      */
     public Point(double x, double y) {
         this.x = x;
@@ -38,6 +38,7 @@ public class Point {
     /**
      * Computes distance to another point
      * @param other point to which distance should be computed
+     * @return distance to other point
      */
     public double distanceTo(Point other) {
         if (other == null) {
@@ -54,6 +55,7 @@ public class Point {
     /**
      * Creates point from string
      * @param s string to convert to point
+     * @return point created from string
      */
     public static Point fromString(String s) {
         if (s == null || s.isBlank()) {

@@ -46,12 +46,13 @@ public class Trapezium extends Figure implements Comparable<Trapezium>, Iterable
 
     /**
      * constructs trapezium
-     * @param p1
-     * @param p2
-     * @param p3
-     * @param p4
-     * @param outlineColor
-     * @param fillColor
+     * <b>Point order doesn't matter</b>
+     * @param p1 first point
+     * @param p2 second point
+     * @param p3 third point
+     * @param p4 forth point
+     * @param outlineColor color to which color lines of trapezium
+     * @param fillColor color to fill area of trapezium with
      */
     public Trapezium(Point p1, Point p2, Point p3, Point p4, String outlineColor, String fillColor) {
         if (p1 == null || p2 == null || p3 == null || p4 == null) {
